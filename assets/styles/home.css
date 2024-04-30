@@ -1,0 +1,58 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* 
+    header
+*/
+#area-header #my-logo
+{
+    width: 200px;
+}
+
+
+
+/* 
+    contact
+*/
+#area-contact .el-field
+{
+    flex-direction: row;
+}
+
+#area-contact .el-field input
+{
+    border-radius: 30px;
+    max-width: 350px;
+}
+
+#area-contact .el-field button
+{
+    border-radius: 30px;
+}
+
+
+
+/* 
+    responsividade
+*/
+@media screen and (max-width:600px) 
+{
+    #area-contact #form-contact .el-field
+    {
+        flex-direction: column;
+    }
+
+    #area-contact #form-contact .el-field button
+    {
+        margin: 12px;
+    }
+}

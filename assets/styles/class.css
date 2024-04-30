@@ -1,0 +1,27 @@
+.i-w-100
+{
+    width: 100%;
+}
+
+.i-h-100
+{
+    height: 100%;
+}
+
+.i-mw-500px
+{
+    max-width: 500px;
+}
+
+.i-text-center
+{
+    text-align: center;
+}
+
+.i-box
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
